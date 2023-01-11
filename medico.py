@@ -4,4 +4,4 @@ class Medico:
         self.nome = nome
         self.idade = idade
         self.especialidade = especialidade
-        
+
