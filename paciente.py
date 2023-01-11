@@ -1,3 +1,6 @@
+from medico import Medico
+from medicamento import Medicamento
+
 class Pessoa:
 
     # a ideia é fazer com que a IA indique a possível causa (diagnóstico) e um tratamento
