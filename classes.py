@@ -16,6 +16,12 @@ class Medico:
         self.idade = idade
         self.especialidade = especialidade
 
+    def fala(self, fala):
+        self.fala = fala
+
+    def escuta(self, escuta):
+        self.escuta = escuta 
+
 
 
 class Pessoa:
@@ -38,6 +44,9 @@ class Pessoa:
         self.idade = idade
         self.queixa = queixa
         self.medicamentos = []
+
+    def relata_queixa(self, queixa):
+        self.relata_queixa = queixa
 
 
 
