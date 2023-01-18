@@ -59,3 +59,11 @@ class Medicamento:
         self.ADR = ADR
         self.posologia = posologia
         self.indicacao = indicacao
+
+    def indicacao(self, indicacao, efeito):
+        self.indicacao = indicacao
+        self.efeito = efeito
+
+    
+    def risco_beneficio(self):
+        self.risco_beneficio = risco_beneficio
