@@ -49,6 +49,8 @@ class Pessoa:
         self.relata_queixa = queixa
 
 
+    def 
+
 
 
 class Medicamento:
